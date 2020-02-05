@@ -1,6 +1,14 @@
 #include <stdio.h>
-int main ()
+
+/**
+* main - Entry point
+*
+*printf - prints text
+*
+* Return: Always 0 (Success)
+*/
+int main(void)
 {
-	printf ("%s\n", "with proper grammar, but the outcome is a piece of art,");
-	return 0;
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }
