@@ -6,7 +6,7 @@
 * sizeof: gives the memory allocated
 * Return: Always 0 (Success)
 */
-int main() 
+int main(void)
 {
 	printf("Size of a char: %lu byte(s)\n", sizeof(char));
 	printf("Size of an int: %lu byte(s)\n", sizeof(int));
