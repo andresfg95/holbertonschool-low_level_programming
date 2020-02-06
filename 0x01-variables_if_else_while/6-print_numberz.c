@@ -1,22 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
 *main - Prints digits 0-9 with putchar
 *
 *Return: Always 0 (Success)
-*
 */
+
 int main(void)
 {
-	char digit = '0';
+	int a;
 
-	while (digit <= '9')
+	for (a = 48; a <= 57; a++)
 	{
-		putchar(digit);
-		digit++;
+		putchar(a);
 	}
 	putchar('\n');
+
 	return (0);
 }
