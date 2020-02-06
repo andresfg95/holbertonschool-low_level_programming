@@ -1,26 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+
 /**
-*main - Randomizes number and prints its state
+* main - Prints numbers 0-9 comma separated
 *
-*if - selects what to print
-*
+*Return: Always 0 (Success)
 */
 int main(void)
 {
-	char num = '0', ltr = 'a';
+	int a;
 
-	while (num <= '9')
+	for (a = 48; a <= 57; a++)
 	{
-		putchar(num);
-		num++;
+		putchar(a);
+
+		if (a != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
-	while (ltr <= 'f')
-	{
-		putchar(ltr);
-		ltr++;
-	}
+
 	putchar('\n');
 	return (0);
 }
