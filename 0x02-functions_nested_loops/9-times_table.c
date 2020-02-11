@@ -30,11 +30,16 @@ void times_table(void)
 			if (position < 9)
 			{
 				_putchar(',');
+			}
+			if ((table * (position + 1)) > 9)
+			{
+				
 				_putchar(' ');
-				if (multiplier < 9)
-				{
-					_putchar(' ');
-				}
+			}
+			else
+			{
+				_putchar(' ');
+				_putchar(' ');
 			}
 			position++;
 
