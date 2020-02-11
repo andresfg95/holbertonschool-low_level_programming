@@ -3,7 +3,6 @@
 /**
 *times_table - prints 9 times 0.
 */
-
 void times_table(void)
 {
 	int table, position, multiplier, digit, unit;
@@ -33,7 +32,7 @@ void times_table(void)
 			}
 			if ((table * (position + 1)) > 9)
 			{
-				
+
 				_putchar(' ');
 			}
 			else
@@ -42,7 +41,6 @@ void times_table(void)
 				_putchar(' ');
 			}
 			position++;
-
 		}
 		_putchar('\n');
 		table++;
