@@ -3,17 +3,17 @@
 /**
 * add - add 2 integers and return result
 *
-*@n : first number to add
+*@m : first number to add
 *
-*@o :second number to add
+*@n :second number to add
 *
 *Return: int (success).
 */
 
-int add(int n, int o)
+int add(int m, int n)
 {
-	int n, o, addition;
+	int addition;
 
-	addition = n + o;
+	addition = m + n;
 	return (addition);
 }
