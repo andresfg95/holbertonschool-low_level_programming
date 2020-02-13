@@ -1,9 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
 *main - prints fizz buzz or fizz buzz for multiples of 3 and 5
-*
-*@i - iterates for 0 -100
 *
 *Return: Always 0 (Success).
 */
