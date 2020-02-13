@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
+*main - prints fizz buzz or fizz buzz for multiples of 3 and 5
 *
+*@i - iterates for 0 -100
 *
-*
+*Return: Always 0 (Success).
 */
-
-int main (void)
+int main(void)
 {
 	int i;
 
@@ -18,7 +19,7 @@ int main (void)
 		}
 		else if (i % 3 == 0 && i % 5 != 0)
 		{
-			printf("Fizz "); 
+			printf("Fizz ");
 		}
 		else if (i % 5 == 0 && i % 3 != 0)
 		{
@@ -30,5 +31,5 @@ int main (void)
 		}
 	}
 	putchar('\n');
-	return (0); 
+	return (0);
 }
