@@ -12,7 +12,7 @@ void print_triangle(int size)
 	{
 		int i, space, pound;
 
-		count = 0;
+		i = 0;
 
 		while (i < size)
 		{
@@ -25,7 +25,7 @@ void print_triangle(int size)
 			}
 			pound = 0;
 
-			while (hashs <= i)
+			while (pound <= i)
 			{
 				_putchar('#');
 				pound++;
